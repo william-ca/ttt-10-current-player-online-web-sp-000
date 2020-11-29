@@ -4,7 +4,8 @@ def turn_count(board)
   board.each do |spaces|
     if spaces == "X" || spaces == "O"
       return counter += 1
-      until counter = 9
+      until counter == 9
     end
+end
 end
 end
